@@ -11,6 +11,7 @@ repository = "https://github.com/IuriiYoung/python-project-50.git"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pyyaml = "^6.0.2"
 
 
 [tool.poetry.group.dev.dependencies]

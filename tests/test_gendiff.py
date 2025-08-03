@@ -22,3 +22,4 @@ def test_gendiff_flat_json():
     expected = load_text('expected_result.txt')
     result = gendiff(dict1, dict2)
     assert result == expected
+

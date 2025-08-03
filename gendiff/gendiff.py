@@ -1,7 +1,6 @@
 def gendiff(file_1, file_2):
     f_list = []
     keys_list = list(set(file_1) | set(file_2))
-    # print(file_1, 'file11111')
     keys_list.sort()
     for key in keys_list:
         if key in file_1 and key in file_2:
